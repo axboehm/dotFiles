@@ -5,70 +5,69 @@ if exists("syntax_on")
 endif
 let g:colors_name = 'chlordaneLavender'
 
-hi Cursor	guifg=#3a553a guibg=#77dd88
-hi Cursor	guifg=#3a553a guibg=#B1B3EE
-hi lCursor	guifg=#3a553a guibg=#77dd88
+hi Cursor	guifg=#443a55 guibg=#ae77dd
+hi lCursor	guifg=#443a55 guibg=#ae77dd
 hi CursorLine	guibg=#000000 gui=underline
-hi CursorIM	guifg=#3a553a guibg=#77dd88
-hi Directory	guifg=#77dd88 guibg=#000000 gui=bold
-hi DiffAdd	guifg=#77dd88 guibg=#3a553a gui=none
-hi DiffChange	guifg=#77dd88 guibg=#3a553a gui=none
-hi DiffDelete	guifg=#223322 guibg=#223322 gui=none
-hi DiffText	guifg=#77dd88 guibg=#448844 gui=bold
-hi ErrorMsg	guifg=#ee1111 guibg=#000000
-hi VertSplit	guifg=#223322 guibg=#223322
-hi Folded	guifg=#55af66 guibg=#000000
-hi FoldColumn	guifg=#557755 guibg=#102010
-hi IncSearch	guifg=#3a553a guibg=#77dd88 gui=none
-hi LineNr	guifg=#446644 guibg=#000000 gui=none
-hi ModeMsg	guifg=#55af66 guibg=#000000
-hi MoreMsg	guifg=#55af66 guibg=#000000
-hi Normal	guifg=#55af66 guibg=#000000
-hi Question	guifg=#55af66 guibg=#000000
-hi Search	guifg=#223322 guibg=#55af66 gui=none
+hi CursorIM	guifg=#443a55 guibg=#ae77dd
+hi Directory	guifg=#ae77dd guibg=#000000 gui=bold
+hi DiffAdd	guifg=#ae77dd guibg=#443a55 gui=none
+hi DiffChange	guifg=#ae77dd guibg=#443a55 gui=none
+hi DiffDelete	guifg=#282233 guibg=#282233 gui=none
+hi DiffText	guifg=#ae77dd guibg=#5d4488 gui=bold
+hi ErrorMsg	guifg=#11ee62 guibg=#000000
+hi VertSplit	guifg=#282233 guibg=#282233
+hi Folded	guifg=#8755af guibg=#000000
+hi FoldColumn	guifg=#625577 guibg=#161926
+hi IncSearch	guifg=#443a55 guibg=#ae77dd gui=none
+hi LineNr	guifg=#514466 guibg=#000000 gui=none
+hi ModeMsg	guifg=#8755af guibg=#000000
+hi MoreMsg	guifg=#8755af guibg=#000000
+hi Normal	guifg=#8755af guibg=#000000
+hi Question	guifg=#8755af guibg=#000000
+hi Search	guifg=#282233 guibg=#8755af gui=none
 hi NonText	guifg=#606060 gui=none
 hi SpecialKey	guifg=#707070
 "\n, \0, %d, %s, etc...
-hi Special	guifg=#55af66 guibg=#223333 gui=bold
+hi Special	guifg=#8755af guibg=#33222d gui=bold
 " status line
-hi StatusLine	guifg=#88ee99 guibg=#447f55 gui=bold
+hi StatusLine	guifg=#bf88ee guibg=#6b447f gui=bold
 hi StatusLineNC term=bold cterm=bold,underline ctermfg=green ctermbg=Black
-hi StatusLineNC term=bold gui=bold,underline guifg=#3a553a  guibg=Black
-hi Title	guifg=#77dd88 guibg=#223322 gui=bold
-hi Visual	guifg=#77dd88 guibg=#448844 gui=none
-hi VisualNOS	guifg=#55af66 guibg=#000000
-hi WarningMsg	guifg=#77dd88 guibg=#000000
-hi WildMenu	guifg=#3a553a guibg=#77dd88
-hi Number	guifg=#77dd88 guibg=#354535
-hi Char		guifg=#77dd88 guibg=#354535
-hi String	guifg=#77dd88 guibg=#354535
-hi Boolean	guifg=#77dd88 guibg=#354535
-hi Comment	guifg=#446644
-hi Constant	guifg=#88ee99 gui=none
-hi Identifier	guifg=#77dd88
-hi Statement	guifg=#88ee99 gui=none
+hi StatusLineNC term=bold gui=bold,underline guifg=#443a55  guibg=Black
+hi Title	guifg=#ae77dd guibg=#282233 gui=bold
+hi Visual	guifg=#ae77dd guibg=#5d4488 gui=none
+hi VisualNOS	guifg=#8755af guibg=#000000
+hi WarningMsg	guifg=#ae77dd guibg=#000000
+hi WildMenu	guifg=#443a55 guibg=#ae77dd
+hi Number	guifg=#ae77dd guibg=#3b3545
+hi Char		guifg=#ae77dd guibg=#3b3545
+hi String	guifg=#ae77dd guibg=#3b3545
+hi Boolean	guifg=#ae77dd guibg=#3b3545
+hi Comment	guifg=#514466
+hi Constant	guifg=#bf88ee gui=none
+hi Identifier	guifg=#ae77dd
+hi Statement	guifg=#bf88ee gui=none
 
 "Procedure name
-hi Function     guifg=#77dd88
+hi Function     guifg=#ae77dd
 
 "Define, def
-hi PreProc	guifg=#77dd88 gui=bold
-hi Type		guifg=#77dd88 gui=bold
-hi Underlined	guifg=#77dd88 gui=underline
-hi Error	guifg=#ee1111 guibg=#000000
-hi Todo		guifg=#223322 guibg=#55af66 gui=none
+hi PreProc	guifg=#ae77dd gui=bold
+hi Type		guifg=#ae77dd gui=bold
+hi Underlined	guifg=#ae77dd gui=underline
+hi Error	guifg=#11ee62 guibg=#000000
+hi Todo		guifg=#282233 guibg=#8755af gui=none
 hi SignColumn   guibg=#000000
 
 if version >= 700
   " Pmenu
   hi Pmenu	guibg=#222222
-  hi PmenuSel	guibg=#3a553a guifg=#77dd88
+  hi PmenuSel	guibg=#443a55 guifg=#ae77dd
   hi PmenuSbar	guibg=#222222
 
   " Tab
-  hi TabLine	  guifg=#3a553a guibg=black gui=bold
+  hi TabLine	  guifg=#443a55 guibg=black gui=bold
   hi TabLineFill  guifg=black guibg=black gui=bold
-  hi TabLineSel	  guifg=#88ee99 guibg=#447f55 gui=bold
+  hi TabLineSel	  guifg=#bf88ee guibg=#6b447f gui=bold
 endif
 
 
