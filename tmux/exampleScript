@@ -1,0 +1,30 @@
+#!/bin/bash
+
+SESSION="sessionname"
+PATHMAIN=/path/to/project/
+PATHVULKANENV=$PATHMAIN/thirdParty/Vulkan/1.4.309.0/setup-env.sh
+
+tmux has-session -t $SESSION 2> /dev/null
+
+if [ $? != 0 ]; then
+    tmux new-session -d -s $SESSION -n "source"
+    tmux send-keys -t $SESSION:source ". $PATHVULKANENV" C-m
+    tmux send-keys -t $SESSION:source "cd $PATHMAIN/src" C-m
+    tmux send-keys -t $SESSION:source "nvim ." C-m
+
+    tmux new-window -t $SESSION -n "shaders"
+    tmux send-keys -t $SESSION:shaders ". $PATHVULKANENV" C-m
+    tmux send-keys -t $SESSION:shaders "cd $PATHMAIN/src" C-m
+    # tmux send-keys -t $SESSION:shaders "nvim ." C-m
+
+    tmux new-window -t $SESSION -n "make"
+    tmux send-keys -t $SESSION:make ". $PATHVULKANENV" C-m
+    tmux send-keys -t $SESSION:make "cd $PATHMAIN/src" C-m
+    tmux split-window -v -t $SESSION:make
+    tmux send-keys -t $SESSION:make ". $PATHVULKANENV" C-m
+    tmux send-keys -t $SESSION:make "cd $PATHMAIN/build" C-m
+
+    tmux select-window -t $SESSION:source
+fi
+
+tmux attach-session -t $SESSION
