@@ -11,11 +11,13 @@ if [ $? != 0 ]; then
     tmux send-keys -t $SESSION:source ". $PATHVULKANENV" C-m
     tmux send-keys -t $SESSION:source "cd $PATHMAIN/src" C-m
     tmux send-keys -t $SESSION:source "nvim ." C-m
+    tmux send-keys -t $SESSION:shaders ":colorscheme chlordaneOrange" C-m
 
     tmux new-window -t $SESSION -n "shaders"
     tmux send-keys -t $SESSION:shaders ". $PATHVULKANENV" C-m
-    tmux send-keys -t $SESSION:shaders "cd $PATHMAIN/src" C-m
-    # tmux send-keys -t $SESSION:shaders "nvim ." C-m
+    tmux send-keys -t $SESSION:shaders "cd $PATHMAIN/shaders" C-m
+    tmux send-keys -t $SESSION:shaders "nvim ." C-m
+    tmux send-keys -t $SESSION:shaders ":colorscheme chlordaneLavender" C-m
 
     tmux new-window -t $SESSION -n "make"
     tmux send-keys -t $SESSION:make ". $PATHVULKANENV" C-m
@@ -23,6 +25,10 @@ if [ $? != 0 ]; then
     tmux split-window -v -t $SESSION:make
     tmux send-keys -t $SESSION:make ". $PATHVULKANENV" C-m
     tmux send-keys -t $SESSION:make "cd $PATHMAIN/build" C-m
+
+    tmux new-window -t $SESSION -n "compileShaders"
+    tmux send-keys -t $SESSION:compileShaders ". $PATHVULKANENV" C-m
+    tmux send-keys -t $SESSION:compileShaders "cd $PATHMAIN/shaders" C-m
 
     tmux select-window -t $SESSION:source
 fi
