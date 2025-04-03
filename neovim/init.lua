@@ -328,6 +328,11 @@ require('lazy').setup({
     end,
   },
 
+  -- GLSL syntax highlighting
+  {
+    'tikhomirov/vim-glsl'
+  },
+
   -- DAP Config & Plugins
   {
     'mfussenegger/nvim-dap',
