@@ -1,0 +1,21 @@
+configuration {
+    modi: "combi,window,drun,run";
+    combi-modi: "window,drun,run";
+}
+
+@theme "DarkBlue"
+
+* {
+    background-color: #000000;
+    foreground: #77dd88;
+    normal-background: #223322;
+    active-foreground: #eeeeee;
+    selected-active-foreground: #202020;
+    background: #000000;
+    alternate-normal-foreground: #77dd88;
+    selected-normal-background: #88ee99;
+    spacing: 2;
+    separatorcolor: #88ee99;
+    active-background: #708070;
+    selected-active-background: #cceecc;
+}

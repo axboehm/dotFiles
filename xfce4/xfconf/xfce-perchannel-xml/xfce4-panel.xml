@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<channel name="xfce4-panel" version="1.0">
+  <property name="configver" type="empty"/>
+  <property name="panels" type="empty">
+    <property name="panel-1" type="empty">
+      <property name="position" type="string" value="p=2;x=1901;y=540"/>
+      <property name="length" type="uint" value="100"/>
+      <property name="position-locked" type="bool" value="true"/>
+      <property name="size" type="uint" value="32"/>
+      <property name="background-style" type="empty"/>
+      <property name="background-alpha" type="empty"/>
+      <property name="enter-opacity" type="empty"/>
+      <property name="leave-opacity" type="empty"/>
+      <property name="plugin-ids" type="array">
+        <value type="int" value="1"/>
+        <value type="int" value="6"/>
+        <value type="int" value="7"/>
+        <value type="int" value="8"/>
+        <value type="int" value="13"/>
+        <value type="int" value="10"/>
+        <value type="int" value="11"/>
+        <value type="int" value="12"/>
+        <value type="int" value="2"/>
+      </property>
+      <property name="mode" type="uint" value="1"/>
+      <property name="nrows" type="uint" value="2"/>
+      <property name="length-adjust" type="bool" value="true"/>
+    </property>
+    <property name="dark-mode" type="bool" value="true"/>
+  </property>
+  <property name="plugins" type="empty">
+    <property name="plugin-1" type="empty"/>
+    <property name="plugin-2" type="empty"/>
+    <property name="plugin-3" type="empty">
+      <property name="items" type="empty"/>
+    </property>
+    <property name="plugin-4" type="empty">
+      <property name="items" type="empty"/>
+    </property>
+    <property name="plugin-5" type="empty">
+      <property name="items" type="empty"/>
+    </property>
+    <property name="plugin-6" type="empty">
+      <property name="show-handle" type="empty"/>
+      <property name="middle-click" type="empty"/>
+    </property>
+    <property name="plugin-7" type="empty">
+      <property name="expand" type="empty"/>
+      <property name="style" type="empty"/>
+    </property>
+    <property name="plugin-8" type="empty">
+      <property name="names-visible" type="empty"/>
+      <property name="show-frame" type="empty"/>
+      <property name="known-legacy-items" type="array">
+        <value type="string" value="tray.py"/>
+        <value type="string" value="gpick"/>
+        <value type="string" value="networkmanager applet"/>
+        <value type="string" value="thunar"/>
+      </property>
+      <property name="known-items" type="array">
+        <value type="string" value="vkconfig"/>
+        <value type="string" value="strawberry"/>
+        <value type="string" value="steam"/>
+        <value type="string" value="obs"/>
+        <value type="string" value="Clementine"/>
+        <value type="string" value="Zeal"/>
+        <value type="string" value="UnityHub1"/>
+        <value type="string" value="vlc"/>
+      </property>
+    </property>
+    <property name="plugin-9" type="empty"/>
+    <property name="plugin-10" type="empty"/>
+    <property name="plugin-11" type="empty"/>
+    <property name="plugin-12" type="empty">
+      <property name="enable-keyboard-shortcuts" type="empty"/>
+      <property name="enable-mpris" type="empty"/>
+      <property name="mixer-command" type="empty"/>
+      <property name="show-notifications" type="empty"/>
+      <property name="mpris-players" type="string" value="chromium.instance39535;chromium.instance8214;chromium.instance91599;clementine;firefox.instance113142;firefox.instance113756;firefox.instance11857;firefox.instance120865;firefox.instance12249;firefox.instance12504;firefox.instance12751;firefox.instance13386;firefox.instance15743;firefox.instance18042;firefox.instance18104;firefox.instance1972;firefox.instance1984;firefox.instance1988;firefox.instance1991;firefox.instance1993;firefox.instance2000;firefox.instance2008;firefox.instance20117;firefox.instance2015;firefox.instance2016;firefox.instance2023;firefox.instance2029;firefox.instance2050;firefox.instance2143;firefox.instance2146;firefox.instance2170;firefox.instance2174;firefox.instance2177;firefox.instance2179;firefox.instance2182;firefox.instance2185;firefox.instance2189;firefox.instance2196;firefox.instance2198;firefox.instance2199;firefox.instance2200;firefox.instance2201;firefox.instance2202;firefox.instance2203;firefox.instance2204;firefox.instance2205;firefox.instance2206;firefox.instance2207;firefox.instance2208;firefox.instance2210;firefox.instance2211;firefox.instance2212;firefox.instance2213;firefox.instance2214;firefox.instance2215;firefox.instance2216;firefox.instance2217;firefox.instance2218;firefox.instance2219;firefox.instance2220;firefox.instance2221;firefox.instance2222;firefox.instance2223;firefox.instance2224;firefox.instance2225;firefox.instance2226;firefox.instance2228;firefox.instance2229;firefox.instance2230;firefox.instance2231;firefox.instance2232;firefox.instance2233;firefox.instance2234;firefox.instance2235;firefox.instance2236;firefox.instance2237;firefox.instance2238;firefox.instance2239;firefox.instance2240;firefox.instance2241;firefox.instance2242;firefox.instance2243;firefox.instance2244;firefox.instance2245;firefox.instance2246;firefox.instance2247;firefox.instance2248;firefox.instance2250;firefox.instance2251;firefox.instance2252;firefox.instance2254;firefox.instance2255;firefox.instance2256;firefox.instance2257;firefox.instance2258;firefox.instance2259;firefox.instance2260;firefox.instance2261;firefox.instance2262;firefox.instance2263;firefox.instance2264;firefox.instance2266;firefox.instance2267;firefox.instance2268;firefox.instance2270;firefox.instance2271;firefox.instance2273;firefox.instance2274;firefox.instance2275;firefox.instance2276;firefox.instance2279;firefox.instance2280;firefox.instance2282;firefox.instance2283;firefox.instance2284;firefox.instance2285;firefox.instance2286;firefox.instance2287;firefox.instance2288;firefox.instance2289;firefox.instance2290;firefox.instance2291;firefox.instance2292;firefox.instance2293;firefox.instance2295;firefox.instance2296;firefox.instance2297;firefox.instance2298;firefox.instance2299;firefox.instance2300;firefox.instance2301;firefox.instance2302;firefox.instance2304;firefox.instance2305;firefox.instance2307;firefox.instance2308;firefox.instance2309;firefox.instance2311;firefox.instance2312;firefox.instance2313;firefox.instance2314;firefox.instance2315;firefox.instance2316;firefox.instance2318;firefox.instance2319;firefox.instance2320;firefox.instance2322;firefox.instance2323;firefox.instance2325;firefox.instance2326;firefox.instance2327;firefox.instance2328;firefox.instance2329;firefox.instance2331;firefox.instance2332;firefox.instance2333;firefox.instance2335;firefox.instance2336;firefox.instance2337;firefox.instance2340;firefox.instance2341;firefox.instance2342;firefox.instance2343;firefox.instance2344;firefox.instance2345;firefox.instance2347;firefox.instance2348;firefox.instance2349;firefox.instance2351;firefox.instance2352;firefox.instance2354;firefox.instance2357;firefox.instance2358;firefox.instance2359;firefox.instance2360;firefox.instance2362;firefox.instance2363;firefox.instance2366;firefox.instance2367;firefox.instance2369;firefox.instance2370;firefox.instance2371;firefox.instance2372;firefox.instance2373;firefox.instance2375;firefox.instance2378;firefox.instance2380;firefox.instance2381;firefox.instance23888;firefox.instance2389;firefox.instance2390;firefox.instance2391;firefox.instance2401;firefox.instance2404;firefox.instance2409;firefox.instance2411;firefox.instance2419;firefox.instance2422;firefox.instance2432;firefox.instance2433;firefox.instance2436;firefox.instance2437;firefox.instance2439;firefox.instance2440;firefox.instance2441;firefox.instance2445;firefox.instance2447;firefox.instance2448;firefox.instance2463;firefox.instance2466;firefox.instance2482;firefox.instance2495;firefox.instance2496;firefox.instance25001;firefox.instance2509;firefox.instance2510;firefox.instance2522;firefox.instance2528;firefox.instance2529;firefox.instance25312;firefox.instance25412;firefox.instance2549;firefox.instance2554;firefox.instance2557;firefox.instance2571;firefox.instance2584;firefox.instance2590;firefox.instance25965;firefox.instance2598;firefox.instance2609;firefox.instance2610;firefox.instance26146;firefox.instance2619;firefox.instance2682;firefox.instance2683;firefox.instance2693;firefox.instance26957;firefox.instance2705;firefox.instance2715;firefox.instance2718;firefox.instance2737;firefox.instance2763;firefox.instance2844;firefox.instance2856;firefox.instance2875;firefox.instance2881;firefox.instance29448;firefox.instance3041;firefox.instance30723;firefox.instance3083;firefox.instance319912;firefox.instance32448;firefox.instance32477;firefox.instance3307;firefox.instance3313;firefox.instance33929;firefox.instance3664;firefox.instance3870;firefox.instance3904;firefox.instance39848;firefox.instance3990;firefox.instance41165;firefox.instance4124;firefox.instance41994;firefox.instance4203;firefox.instance42120;firefox.instance4292;firefox.instance43277;firefox.instance43865;firefox.instance4571;firefox.instance4781;firefox.instance50962;firefox.instance5393;firefox.instance54045;firefox.instance5883;firefox.instance64167;firefox.instance66052;firefox.instance69767;firefox.instance7145;firefox.instance7308;firefox.instance75224;firefox.instance7656;firefox.instance7748;firefox.instance81977;firefox.instance8409;firefox.instance86952;firefox.instance87076;firefox.instance_1_108;firefox.instance_1_111;firefox.instance_1_112;firefox.instance_1_117;firefox.instance_1_119;firefox.instance_1_122;firefox.instance_1_125;firefox.instance_1_126;firefox.instance_1_1325;firefox.instance_1_144;firefox.instance_1_147;firefox.instance_1_148;firefox.instance_1_1526;firefox.instance_1_158;firefox.instance_1_162;firefox.instance_1_163;firefox.instance_1_185;firefox.instance_1_199;firefox.instance_1_21;firefox.instance_1_231;firefox.instance_1_235;firefox.instance_1_333;firefox.instance_1_341;firefox.instance_1_372;firefox.instance_1_400;firefox.instance_1_401;firefox.instance_1_51;firefox.instance_1_52;firefox.instance_1_53;firefox.instance_1_54;firefox.instance_1_55;firefox.instance_1_56;firefox.instance_1_57;firefox.instance_1_58;firefox.instance_1_59;firefox.instance_1_60;firefox.instance_1_61;firefox.instance_1_62;firefox.instance_1_63;firefox.instance_1_64;firefox.instance_1_646;firefox.instance_1_65;firefox.instance_1_651;firefox.instance_1_66;firefox.instance_1_67;firefox.instance_1_68;firefox.instance_1_69;firefox.instance_1_70;firefox.instance_1_73;firefox.instance_1_74;firefox.instance_1_75;firefox.instance_1_76;firefox.instance_1_761;firefox.instance_1_77;firefox.instance_1_78;firefox.instance_1_82;firefox.instance_1_83;firefox.instance_1_87;firefox.instance_1_88;firefox.instance_1_89;firefox.instance_1_92;firefox.instance_1_93;firefox.instance_1_99;io.github.celluloid_player.Celluloid.instance-1;strawberry;vlc;vlc.instance39672"/>
+    </property>
+    <property name="plugin-13" type="empty">
+      <property name="digital-format" type="string" value="%a %_d %b, %R"/>
+      <property name="mode" type="uint" value="2"/>
+      <property name="timezone" type="string" value="CET"/>
+    </property>
+  </property>
+</channel>

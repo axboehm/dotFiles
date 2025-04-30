@@ -1,0 +1,44 @@
+DP-0 Height 1920x1080=649
+DP-0 Width 1920x1080=857
+DP-0 XPosition 1920x1080=351
+DP-0 YPosition 1920x1080=204
+State=AAAA/wAAAAD9AAAAAQAAAAMAAAHNAAAAbPwBAAAAAfsAAAASAEMAbwBsAG8AcgAgAEIAbwB4AQAAAYwAAAHNAAACDAD///8AAAHNAAAB6wAAAAQAAAAEAAAAAQAAAAL8AAAAAgAAAAAAAAABAAAAEABUAG8AbwBsACAAQgBvAHgDAAAAAP////8AAAAAAAAAAAAAAAIAAAACAAAAFgBtAGEAaQBuAFQAbwBvAGwAQgBhAHIAAAAAAP////8AAAAAAAAAAAAAABYAdABlAHgAdABUAG8AbwBsAEIAYQByAAAAAAD/////AAAAAAAAAAA=
+
+[General Settings]
+First Time=false
+Last Document Size=814,481
+Open Images in the Same Window=false
+
+[MainWindow]
+DP-0 Height 1920x1080=649
+DP-0 Width 1920x1080=857
+DP-0 XPosition 1920x1080=966
+DP-0 YPosition 1920x1080=233
+State=AAAA/wAAAAD9AAAAAQAAAAMAAANZAAAAbPwBAAAAAfsAAAASAEMAbwBsAG8AcgAgAEIAbwB4AQAAAAAAAANZAAACDAD///8AAANZAAAB6wAAAAQAAAAEAAAAAQAAAAL8AAAAAgAAAAAAAAABAAAAEABUAG8AbwBsACAAQgBvAHgCAAAAAP////8AAAAAAAAAAAAAAAIAAAACAAAAFgBtAGEAaQBuAFQAbwBvAGwAQgBhAHIAAAAAAP////8AAAAAAAAAAAAAABYAdABlAHgAdABUAG8AbwBsAEIAYQByAAAAAAD/////AAAAAAAAAAA=
+ToolBarsMovable=Disabled
+
+[MainWindow][Toolbar Tool Box]
+ToolButtonStyle=IconOnly
+
+[Tool Settings]
+Last Used Tool=7
+Tool Widget Brush Col=1
+Tool Widget Brush Row=0
+Tool Widget Eraser Size Col=0
+Tool Widget Eraser Size Row=1
+Tool Widget Fill Style Col=0
+Tool Widget Fill Style Row=0
+Tool Widget Line Width Col=0
+Tool Widget Line Width Row=0
+Tool Widget Opaque/Transparent Col=0
+Tool Widget Opaque/Transparent Row=0
+Tool Widget Spraycan Size Col=0
+Tool Widget Spraycan Size Row=0
+
+[Toolbar Tool Box]
+ToolButtonStyle=IconOnly
+
+[Undo/Redo Settings]
+Max Limit=500
+Max Limit Size Limit=16777216
+Min Limit=10
