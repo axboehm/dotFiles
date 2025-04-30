@@ -31,11 +31,11 @@ scrot \
 unzip
 ```
 - custom installs
- - neovim [[2401131649]]
+ - neovim
  - blender
 
 ### software config
-- ssh [2403041531](2403041531.md)
+- ssh
 - neovim:
  - `init.lua` to `~/.config/nvim/init.lua`
  - `colors` directory to `~/.config/nvim/colors`
